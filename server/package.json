@@ -1,0 +1,31 @@
+{
+  "name": "easyhome",
+  "version": "1.0.0",
+  "description": "Room Rental Mern Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon -r esm server.js"
+  },
+  "author": "Sudip Chaudhary",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cloudinary": "^1.29.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.3",
+    "express-formidable": "^1.2.0",
+    "express-jwt": "^6.1.1",
+    "express-validator": "^6.14.0",
+    "google-auth-library": "^7.14.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.2.7",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.7.3",
+    "nodemon": "^2.0.15",
+    "query-string": "^7.1.1",
+    "stripe": "^8.195.0"
+  }
+}
